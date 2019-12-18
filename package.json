@@ -1,5 +1,5 @@
 {
-  "name": "empty-project-template",
+  "name": "Map_a_Nap",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -9,16 +9,19 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.2",
-    "expo": "^31.0.2",
+    "babel-eslint": "latest",
+    "expo": "^35.0.0",
     "geolib": "latest",
-    "react": "16.5.0",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-31.0.0.tar.gz",
-    "react-navigation": "latest"
+    "react": "latest",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
+    "react-native-gesture-handler": "^1.5.2",
+    "react-native-maps": "^0.26.1",
+    "react-navigation": "latest",
+    "scheduler": "^0.18.0"
   },
   "devDependencies": {
-    "babel-preset-expo": "^5.0.0",
-    "eslint": "^6.0.1",
-    "eslint-plugin-react": "^7.14.2"
+    "babel-preset-expo": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest"
   }
 }

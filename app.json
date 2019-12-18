@@ -4,7 +4,7 @@
     "description": "A location-based alarm app by Felipe Valencia",
     "slug": "Map_a_Nap",
     "privacy": "public",
-    "sdkVersion": "31.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
       "android"
@@ -26,6 +26,6 @@
     "ios": {
       "supportsTablet": true
     },
-    "githubUrl": "https://github.com/felivalencia3/Mobile/tree/master/React%20Native/Map-A-Nap/Map_a_Nap"
+    "githubUrl": "https://github.com/felivalencia3/Map_a_Nap"
   }
 }
