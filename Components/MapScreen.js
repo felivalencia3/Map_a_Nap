@@ -12,13 +12,8 @@ export default class MapScreen extends React.Component {
             backgroundColor: '#66FCF1'
         },
         headerTitle: <LogoTitle />,
-        headerRight: <Button title={"Back"} onPress={()=>navigation.navigate("Home")} />,
         headerLeft: (
-            <Button
-                onPress={() => navigation.navigate('MyModal')}
-                title="Info"
-                color="rgb(0,0,0)"
-            />
+            <Button title={"Back"} onPress={()=>navigation.navigate("Home")} />
         )
     });
     constructor(props) {
@@ -92,14 +87,13 @@ export default class MapScreen extends React.Component {
                 <View style={styles.buttonContainer}>
                     <View style={styles.bubble}>
                         <Button title={"Next"} onPress={() => {
-                            if (this.state.marker) {
                                 this.props.navigation.navigate("config", {
                                     userLat: this.state.userLat,
                                     userLong: this.state.userLong,
                                     lat: this.state.mapRegion.latitude,
                                     long: this.state.mapRegion.longitude
                                 });
-                            }
+                            
                             
                         }}/>
                     </View>

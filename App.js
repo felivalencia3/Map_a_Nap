@@ -1,6 +1,7 @@
 import React from 'react';
 import {Button, Image, ImageBackground, StyleSheet, Text, TouchableHighlight, View} from 'react-native';
-import {createAppContainer, createStackNavigator} from 'react-navigation';
+import {createAppContainer} from 'react-navigation';
+import {createStackNavigator} from "react-navigation-stack"
 import MapScreen from "./Components/MapScreen";
 import OptionScreen from "./Components/OptionScreen";
 import AlertScreen from "./Components/AlertScreen";

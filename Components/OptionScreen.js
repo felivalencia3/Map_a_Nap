@@ -1,6 +1,6 @@
 import React from "react";
 import {KeepAwake} from "expo";
-import geolib from "geolib";
+import {getDistance} from "geolib";
 import LogoTitle from "./LogoTitle";
 import {View,Text,Button, StyleSheet,TextInput} from "react-native"
 export default class OptionScreen extends React.Component {
@@ -34,7 +34,7 @@ export default class OptionScreen extends React.Component {
         if (!pickedLat && !pickedLong) {
             navigation.goBack()
         }
-        distanceFrom = geolib.getDistance(
+        distanceFrom = getDistance(
             {latitude: userLat, longitude: userLong},
             {latitude: pickedLat, longitude: pickedLong}
         );
